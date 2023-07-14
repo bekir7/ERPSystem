@@ -1,0 +1,16 @@
+{       
+    "t-menu": "Menü",
+ 
+    "t-my-page": "Benim Sayfam",
+
+    "t-information-technologies-rd": "Bilgi Teknolojileri & ARGE",
+    "t-service-management": "Hizmet Yönetimi",
+    "t-fault-management": "Arıza Yönetimi",
+    "t-change-management": "Değişiklik Yönetimi",
+    "t-inventory-management": "Envanter Yönetimi",
+    "t-data-base": "Bilgi Bankası",
+    "t-risk-management": "Risk Yönetimi",
+    "t-compatibility": "Uyumluluk",
+    "t-admin-panel": "Admin Paneli",
+    "t-project-management": "Proje Yönetimi"
+}

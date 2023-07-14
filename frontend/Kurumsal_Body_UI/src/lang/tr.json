@@ -1,0 +1,60 @@
+{       
+    "t-menu": "Menü",
+    "t-my-page": "Benim Sayfam",
+    "t-dashboard": "Dashboard",
+
+    "t-information-technologies-rd": "Bilgi Teknolojileri & ARGE",
+    "t-service-management": "Hizmet Yönetimi",
+    "t-fault-management": "Arıza Yönetimi",
+    "t-change-management": "Değişiklik Yönetimi",
+    "t-inventory-management": "Envanter Yönetimi",
+    "t-data-base": "Bilgi Bankası",
+    "t-risk-management": "Risk Yönetimi",
+    "t-compatibility": "Uyumluluk",
+    "t-admin-panel": "Admin Paneli",
+    "t-project-management": "Proje Yönetimi",
+    "t-kvkk-processes": "KVKK Süreçleri",
+    "t-information-security": "Bilgi Güvenliği",
+    "t-it-system-access-process": "BT Sistem Erişim Süreci",
+
+    "t-human-resources": "İnsan Kaynakları",
+    "t-personnel-management-process": "Personel Yönetim Süreci",
+    "t-personnel-demand":"Personel Talep Süreci",
+    "t-selection-and-placement-form": "Seçme Yerleştirme Formu",    
+    "t-pre-job-preparation": "İşbaşı Öncesi Hazırlık Süreci",
+    "t-recruitment-process": "İşe Giriş Süreci",
+    "t-recruitment-announcement-process": "İşe Giriş Duyuru Süreci",
+    "t-two-to-six-months-evaluation-process": "2-6 Ay Değerlendirme Süreci",
+    "t-feedback-form-from-alisan": "Yeni Alışanlı Görüş Belirtme Formu",
+    "t-education-process": "Eğitim Süreci",
+    "t-personnel-affairs": "Özlük İşleri",
+    "t-overtime-process": "Fazla Mesai Süreci",
+    "t-cost-advance-process": "Masraf-Avans Süreci",
+    "t-permission-process": "İzin Süreci",
+    "t-performance-management": "Performans Yönetimi",
+    "t-management-systems-projects": "Yönetim Sistemleri ve Projeler",
+    "t-customer-complaint-process": "Müşteri Şikayet Süreci",
+    "t-internal-customer-complaint-process": "İç Müşteri Şikayet Süreci",
+    "t-corrective-action-form-process": "Düzeltici Faaliyet Formu Süreci",
+
+    "t-administrative-affairs": "İdari İşler",
+    "t-incoming-document-management-process": "Gelen Evrak Yönetim Süreci",
+    "t-line-tracking-process": "Hat Takip Süreci",
+    "t-vehicle-information-form": "Araç Bilgi Formu",
+
+    "t-financial-affairs": "Mali İşler",
+    "t-budget-data-entry-screen": "Bütçe Veri Giriş Ekranı",
+    "t-physical-document-tracking-system": "Fiziksel Doküman Takip Sistemi",
+    
+    "t-purchasing-system": "Satın Alma Sistemi",
+    "t-buy": "Satın Alma",
+    "t-buy-systems": "Satın Alma",
+
+    "t-insurance": "Sigorta",
+    "t-damage-insurance-transactions": "Hasar Sigorta İşlemleri",
+    "t-damage-insurance-notification-process": "Hasar Sigorta Bildirim Süreci",
+    "t-damage-insurance-user-transactions": "Hasar Sigorta Kullanıcı İşlemleri",
+    
+    "t-law": "Hukuk"
+
+}

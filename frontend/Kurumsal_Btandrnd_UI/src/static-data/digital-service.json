@@ -1,0 +1,18 @@
+[
+    {
+        "value":1,
+        "label":"Entegrasyon"
+    },
+    {
+        "value":2,
+        "label":"E-Doküman"
+    },
+    {
+        "value":3,
+        "label":"İzlenebilirlik"
+    },
+    {
+        "value":4,
+        "label":"Raporlar"
+    }
+]

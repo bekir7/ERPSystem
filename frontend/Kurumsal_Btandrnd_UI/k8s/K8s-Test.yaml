@@ -1,0 +1,64 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kurumsal-btandrnd-ui-deployment
+  namespace: kurumsal
+  labels:
+    app: kurumsal-btandrnd-ui-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kurumsal-btandrnd-ui
+  template:
+    metadata:
+      labels:
+        app: kurumsal-btandrnd-ui
+    spec:
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                labelSelector:
+                  matchExpressions:
+                    - key: app
+                      operator: In
+                      values:
+                        - kurumsal-btandrnd-ui
+                topologyKey: kubernetes.io/hostname
+      containers:
+        - name: kurumsal-btandrnd-ui
+          image: __ACR__/kurumsal-btandrnd-ui:__Build.BuildId__
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              memory: "30Mi"
+              cpu: "10m"
+            limits:
+              memory: "512Mi"
+      imagePullSecrets:
+        - name: acr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kurumsal-btandrnd-ui
+  namespace: kurumsal
+spec:
+  selector:
+    app: kurumsal-btandrnd-ui
+  type: ClusterIP
+  ports:
+    - port: 80
+# ---
+# apiVersion: policy/v1
+# kind: PodDisruptionBudget
+# metadata:
+#   name: kurumsal-ui-pdb
+# spec:
+#   minAvailable: 1
+#   selector:
+#     matchLabels:
+#       app: kurumsal-ui

@@ -1,0 +1,46 @@
+[
+    {
+        "value":3,
+        "label":"Yeni"
+    },
+    {
+        "value":4,
+        "label":"BT PMO Grubuna Atandı"
+    },
+    {
+        "value":5,
+        "label":"Dijital Dönüşüm Kuruluna Gönderildi"
+    },
+    {
+        "value":6,
+        "label":"Talep Onaylandı"
+    },
+    {
+        "value":7,
+        "label":"Analiz Ediliyor"
+    },
+    {
+        "value":8,
+        "label":"Geliştirme Aşamasında"
+    },
+    {
+        "value":9,
+        "label":"İş Birimi Testinde"
+    },
+    {
+        "value":10,
+        "label":"Canlıya alındı"
+    },
+    {
+        "value":11,
+        "label":"BT PMO İzleme Sürecinde"
+    },
+    {
+        "value":12,
+        "label":"Talep Kapandı"
+    },
+    {
+        "value":13,
+        "label":"Talep İptal Edildi"
+    }
+]
